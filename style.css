@@ -1,0 +1,72 @@
+.wrapper{
+    position: relative;
+}
+
+.joystick{
+    height: 28vh;
+    margin-left: 82vw;
+    margin-top: 64vh;
+    position: absolute;
+}
+
+.btum{
+    margin-left: 87vw;
+    margin-top: 65vh;
+    height: 10vh;
+    width: 3.3vw;
+    background-color: #fa0000;
+    position: absolute;
+    z-index: 1;
+    opacity: 50%;
+}
+
+.btdois{
+    margin-left: 87vw;
+    margin-top: 80.1vh;
+    height: 10vh;
+    width: 3.3vw;
+    background-color: #ff0000;
+    position: absolute;
+    z-index: 1;
+    opacity: 50%;
+}
+
+.bttres{
+    margin-left: 83.5vw;
+    margin-top: 72.6vh;
+    height: 10vh;
+    width: 3.3vw;
+    background-color: #ff0000;
+    position: absolute;
+    z-index: 1;
+    opacity: 50%;
+    transform: rotate(-90deg);
+}
+
+.btquatro{
+    margin-left: 90.5vw;
+    margin-top: 72.6vh;
+    height: 10vh;
+    width: 3.3vw;
+    background-color: #ff0000;
+    position: absolute;
+    z-index: 1;
+    opacity: 50%;
+    transform: rotate(90deg);
+}
+
+.instrucoes{
+    height: 10vh;
+    width: 40vw;
+    position: absolute;
+    z-index: 2;
+    opacity: 50%;
+    width: vw;
+}
+
+.instrucoestexto {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 2.4vh;
+}
+
