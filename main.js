@@ -1,18 +1,44 @@
 $(document).ready(function() {
-    $("#btum").click(function() {
-      $("#playerimg").animate({ top: "-=50px" }, 500);
+    var velocidade = 2; // Ajuste a velocidade do movimento conforme necessário
+    
+    $("#btum").mousedown(function() {
+      var interval = setInterval(function() {
+        $("#playerimg").css("top", "-=" + velocidade + "px");
+      }, 10);
+      
+      $(this).data('interval', interval);
+    }).mouseup(function() {
+      clearInterval($(this).data('interval'));
     });
-  
-    $("#btdois").click(function() {
-      $("#playerimg").animate({ top: "+=50px" }, 500);
+    
+    $("#btdois").mousedown(function() {
+      var interval = setInterval(function() {
+        $("#playerimg").css("top", "+=" + velocidade + "px");
+      }, 10);
+      
+      $(this).data('interval', interval);
+    }).mouseup(function() {
+      clearInterval($(this).data('interval'));
     });
-  
-    $("#bttres").click(function() {
-      $("#playerimg").animate({ left: "-=50px" }, 500);
+    
+    $("#bttres").mousedown(function() {
+      var interval = setInterval(function() {
+        $("#playerimg").css("left", "-=" + velocidade + "px");
+      }, 10);
+      
+      $(this).data('interval', interval);
+    }).mouseup(function() {
+      clearInterval($(this).data('interval'));
     });
-  
-    $("#btquatro").click(function() {
-      $("#playerimg").animate({ left: "+=50px" }, 500);
+    
+    $("#btquatro").mousedown(function() {
+      var interval = setInterval(function() {
+        $("#playerimg").css("left", "+=" + velocidade + "px");
+      }, 10);
+      
+      $(this).data('interval', interval);
+    }).mouseup(function() {
+      clearInterval($(this).data('interval'));
     });
   });
   
