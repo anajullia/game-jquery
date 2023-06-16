@@ -55,9 +55,10 @@
   }
   
 
-.joystick{
-    height: 28vh;
-    margin-left: 82vw;
+  .joystick{
+    height: 200px;
+    left: 82vw;
+    top: 470px;
     position: absolute;
     z-index: 2;
 }
@@ -111,7 +112,7 @@
 
 
 .opacidadebotoes{
-    opacity: 0.1 !important;
+    opacity: 0 !important;
 }
 
 .instrucoestexto {

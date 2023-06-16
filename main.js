@@ -1,5 +1,7 @@
+// Código do movimento
+
 $(document).ready(function() {
-    var velocidade = 2; // Ajuste a velocidade do movimento conforme necessário
+    var velocidade = 2;
     
     $("#btum").mousedown(function() {
       var interval = setInterval(function() {
