@@ -50,6 +50,17 @@
     height: 100px;
   }
 
+  .colisaocerca{
+    z-index: 3;
+    margin-top: 147px;
+    margin-left: 30px;
+    background-color: #ff0000;
+    opacity: 0.5;
+    width: 527px;
+    height:30px;
+    position: relative;
+  }
+
   .invisivel{
     visibility: hidden !important;
   }
@@ -60,7 +71,7 @@
     left: 82vw;
     top: 470px;
     position: absolute;
-    z-index: 2;
+    z-index: 3;
 }
 
 
@@ -112,7 +123,7 @@
 
 
 .opacidadebotoes{
-    opacity: 0 !important;
+    opacity: 1 !important;
 }
 
 .instrucoestexto {
